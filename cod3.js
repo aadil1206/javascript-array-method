@@ -90,3 +90,11 @@ users.filter((item)=>{
 .map((item)=>{
     array.push(item.age)
 })
+// write a function to sort letter
+
+let letters=['a','c','b','x','d','f','Z','M','S']
+letters.sort();
+// console.log(letters)
+let number=[9,4,6,7,8,10,1,20]
+number.sort();
+console.log(number)
