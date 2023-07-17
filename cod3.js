@@ -68,3 +68,25 @@ users.filter((item)=>{
 .map((item)=>{
     array.push(item.name)
 })
+
+//write a code for age greater than 20
+//using for loop
+
+for (let i = 0; i < users.length; i++) {
+    if(users[i].age>20){
+    array.push(users[i].age)}
+}
+//using foreach loop
+
+users.forEach((item)=> {
+    if(item.age>20){
+    array.push(item.age)}
+});
+//using map function and filter 
+
+users.filter((item)=>{
+    item.age>20
+})
+.map((item)=>{
+    array.push(item.age)
+})
