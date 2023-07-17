@@ -18,7 +18,7 @@ const users=[
         name:"Noor",
         isActive:true,
         age:50,
-        bool:true
+        bool:false
     },
     {
         id:4,
