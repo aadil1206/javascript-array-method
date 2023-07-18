@@ -97,4 +97,18 @@ letters.sort();
 // console.log(letters)
 let number=[9,4,6,7,8,10,1,20]
 number.sort();
-console.log(number)
+// console.log(number)
+ 
+//sort it effectively ascending order
+let number1=[9,4,6,7,8,10,1,20]
+number1.sort((a,b)=>{
+    return a-b
+});
+// console.log(number1)
+
+//sort it effectively descending order
+let number2=[9,4,6,7,8,10,1,20]
+number2.sort((a,b)=>{
+    return b-a
+});
+console.log(number2)
