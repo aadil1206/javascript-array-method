@@ -167,4 +167,17 @@ const items1 = [
 const new2=items1.some((e)=>{
     return e.value===37
 })
-console.log(new2)
+// console.log(new2)
+
+const items12 = [
+    { name: "Edward", value: 21 },
+    { name: "Sharpe", value: 37 },
+    { name: "And", value: 45 },
+    { name: "The", value: -12 },
+    { name: "Magnetic", value: 13 },
+    { name: "Zeros", value: 37 },
+];
+const value=items12.find((e)=>{
+    return e.value===13
+})
+console.log(value)
