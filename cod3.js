@@ -146,3 +146,25 @@ items.sort((a, b) => {
     return 0;
 
 });
+
+
+// write a array method to value is present or not
+
+const array1=[1,2,4,5,7,8,9]
+const new1=array1.some((e)=>{
+    return e===10
+})
+
+// console.log(new1)
+const items1 = [
+    { name: "Edward", value: 21 },
+    { name: "Sharpe", value: 37 },
+    { name: "And", value: 45 },
+    { name: "The", value: -12 },
+    { name: "Magnetic", value: 13 },
+    { name: "Zeros", value: 37 },
+];
+const new2=items1.some((e)=>{
+    return e.value===37
+})
+console.log(new2)
